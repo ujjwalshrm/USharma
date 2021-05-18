@@ -1,0 +1,10 @@
+how will you intialize your page factory?
+so its init.element
+
+Main type of reports
+Extend report listener >>testNG listener
+allure  report listener >>testNG listener
+Web report
+Attach the listener to XML file
+if the screenshot not working what do we do?
+change .file to .BASE64

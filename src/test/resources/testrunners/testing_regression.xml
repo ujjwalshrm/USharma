@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Walmart Test automtion regression suite" verbose="3">
+
+<listeners>
+		<listener class-name="Comp.Qa.Walmart.TestListeners.ExtentReportListener" />
+</listeners>
+
+	<test name="Login page Test">
+		<classes>
+			<class name="Comp.Qa.Walmart.Tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Accounts Home page Test">
+		<classes>
+			<class name="Comp.Qa.Walmart.Tests.AccountHomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Home Page Test">
+		<classes>
+			<class name="Comp.Qa.Walmart.Tests.HomePageTest" />
+		</classes>
+		
+	</test><test name="SignUp Page Test">
+		<classes>
+			<class name="Comp.Qa.Walmart.Tests.SignUpPageTest" />
+		</classes>
+	</test>
+	
+
+	
+</suite>
